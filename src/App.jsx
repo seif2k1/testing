@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Provider store={store}>
+    <Provider>
       seof,eddodsql;
       <Router>
         <Routes>
