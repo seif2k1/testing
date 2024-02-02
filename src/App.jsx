@@ -8,10 +8,11 @@ function App() {
 
   return (
     <Provider store={store}>
+      seof,eddodsql;
       <Router>
         <Routes>
-          <Route path="/users" element={<Users />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/users" element={<h1>seif</h1>} />
+          <Route path="/products" element={<h1>Prodicts</h1>} />
         </Routes>
       </Router>
     </Provider>
