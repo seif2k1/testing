@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Route path="/products" element={<h1>Prodicts</h1>} />
         </Routes>
       </Router>
+      <Link to="/users">Users</Link>
     </>
   );
 }
